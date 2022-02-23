@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00.Info", "00.Info", "{9854CCFD-8F5E-41E3-B57A-9DFC4EA464E5}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Entidades", "01.Entidades", "{DE0F8064-165C-42C0-8507-C866AFD9D37F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Acceso_Datos", "02.Acceso_Datos", "{B5EF76FA-D768-4221-A72D-4F34006EEEC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Logica_Negocio", "03.Logica_Negocio", "{8F9C68FD-CC04-44F9-B087-A7A8DD50FB20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.Data_Transfer_Objects", "04.Data_Transfer_Objects", "{03BB1850-4E74-40C7-9732-C923FDAFFDE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.API_REST", "05.API_REST", "{392F70FA-0573-44C6-825F-0301271174BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06.Transacional", "06.Transacional", "{6E68D50D-7774-473A-93A8-F57C676FFAD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07.Pruebas_Unitarias", "07.Pruebas_Unitarias", "{8057A86E-64CF-4CCB-ADAF-7FB45C061EED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicEvents.Entities", "src\MusicEvents.Entities\MusicEvents.Entities.csproj", "{2B17E083-3248-41DA-9F40-EFFC6BC648C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicEvents.DataAccess", "src\MusicEvents.DataAccess\MusicEvents.DataAccess.csproj", "{D01B1F67-B938-4D46-9F2A-B902BF6F68F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicEvents.Services", "src\MusicEvents.Services\MusicEvents.Services.csproj", "{FA19A140-BA16-4EE1-915B-BBA53425362A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicEvents.Dto", "src\MusicEvents.Dto\MusicEvents.Dto.csproj", "{995272A4-C0AB-447B-AAD7-8347D65E76F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicEvents.Security.API", "src\MusicEvents.Security.API\MusicEvents.Security.API.csproj", "{27BE9927-4C80-4261-B6FB-85573D808C9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicEvents.Transactional", "src\MusicEvents.Transactional\MusicEvents.Transactional.csproj", "{8C8D9AD4-7E68-4A45-9C42-C94F66C92916}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B17E083-3248-41DA-9F40-EFFC6BC648C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B17E083-3248-41DA-9F40-EFFC6BC648C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B17E083-3248-41DA-9F40-EFFC6BC648C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B17E083-3248-41DA-9F40-EFFC6BC648C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D01B1F67-B938-4D46-9F2A-B902BF6F68F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D01B1F67-B938-4D46-9F2A-B902BF6F68F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D01B1F67-B938-4D46-9F2A-B902BF6F68F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D01B1F67-B938-4D46-9F2A-B902BF6F68F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA19A140-BA16-4EE1-915B-BBA53425362A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA19A140-BA16-4EE1-915B-BBA53425362A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA19A140-BA16-4EE1-915B-BBA53425362A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA19A140-BA16-4EE1-915B-BBA53425362A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{995272A4-C0AB-447B-AAD7-8347D65E76F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{995272A4-C0AB-447B-AAD7-8347D65E76F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{995272A4-C0AB-447B-AAD7-8347D65E76F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{995272A4-C0AB-447B-AAD7-8347D65E76F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27BE9927-4C80-4261-B6FB-85573D808C9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27BE9927-4C80-4261-B6FB-85573D808C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27BE9927-4C80-4261-B6FB-85573D808C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27BE9927-4C80-4261-B6FB-85573D808C9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C8D9AD4-7E68-4A45-9C42-C94F66C92916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C8D9AD4-7E68-4A45-9C42-C94F66C92916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C8D9AD4-7E68-4A45-9C42-C94F66C92916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C8D9AD4-7E68-4A45-9C42-C94F66C92916}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B17E083-3248-41DA-9F40-EFFC6BC648C0} = {DE0F8064-165C-42C0-8507-C866AFD9D37F}
+		{D01B1F67-B938-4D46-9F2A-B902BF6F68F2} = {B5EF76FA-D768-4221-A72D-4F34006EEEC5}
+		{FA19A140-BA16-4EE1-915B-BBA53425362A} = {8F9C68FD-CC04-44F9-B087-A7A8DD50FB20}
+		{995272A4-C0AB-447B-AAD7-8347D65E76F4} = {03BB1850-4E74-40C7-9732-C923FDAFFDE6}
+		{27BE9927-4C80-4261-B6FB-85573D808C9B} = {392F70FA-0573-44C6-825F-0301271174BB}
+		{8C8D9AD4-7E68-4A45-9C42-C94F66C92916} = {6E68D50D-7774-473A-93A8-F57C676FFAD2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBD94F64-CACB-4C83-97E3-39E45F16FE31}
+	EndGlobalSection
+EndGlobal
