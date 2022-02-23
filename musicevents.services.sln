@@ -22,17 +22,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06.Transacional", "06.Trans
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07.Pruebas_Unitarias", "07.Pruebas_Unitarias", "{8057A86E-64CF-4CCB-ADAF-7FB45C061EED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicEvents.Entities", "src\MusicEvents.Entities\MusicEvents.Entities.csproj", "{2B17E083-3248-41DA-9F40-EFFC6BC648C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicEvents.Entities", "src\MusicEvents.Entities\MusicEvents.Entities.csproj", "{2B17E083-3248-41DA-9F40-EFFC6BC648C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicEvents.DataAccess", "src\MusicEvents.DataAccess\MusicEvents.DataAccess.csproj", "{D01B1F67-B938-4D46-9F2A-B902BF6F68F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicEvents.DataAccess", "src\MusicEvents.DataAccess\MusicEvents.DataAccess.csproj", "{D01B1F67-B938-4D46-9F2A-B902BF6F68F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicEvents.Services", "src\MusicEvents.Services\MusicEvents.Services.csproj", "{FA19A140-BA16-4EE1-915B-BBA53425362A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicEvents.Services", "src\MusicEvents.Services\MusicEvents.Services.csproj", "{FA19A140-BA16-4EE1-915B-BBA53425362A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicEvents.Dto", "src\MusicEvents.Dto\MusicEvents.Dto.csproj", "{995272A4-C0AB-447B-AAD7-8347D65E76F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicEvents.Dto", "src\MusicEvents.Dto\MusicEvents.Dto.csproj", "{995272A4-C0AB-447B-AAD7-8347D65E76F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicEvents.Security.API", "src\MusicEvents.Security.API\MusicEvents.Security.API.csproj", "{27BE9927-4C80-4261-B6FB-85573D808C9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicEvents.Security.API", "src\MusicEvents.Security.API\MusicEvents.Security.API.csproj", "{27BE9927-4C80-4261-B6FB-85573D808C9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicEvents.Transactional", "src\MusicEvents.Transactional\MusicEvents.Transactional.csproj", "{8C8D9AD4-7E68-4A45-9C42-C94F66C92916}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicEvents.Cross.Mail", "cross\src\MusicEvents.Cross.Mail\MusicEvents.Cross.Mail.csproj", "{C8726F76-199B-47DC-A8BF-1E30C370D898}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicEvents.Cross.Storage", "cross\src\MusicEvents.Cross.Storage\MusicEvents.Cross.Storage.csproj", "{76CE2B33-F84E-42DD-8067-15E4D4786EFD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicEvents.Cross.Util", "cross\src\MusicEvents.Cross.Util\MusicEvents.Cross.Util.csproj", "{64159E28-6EB3-4A9A-A62C-F9CAB6C4C6B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,10 +64,18 @@ Global
 		{27BE9927-4C80-4261-B6FB-85573D808C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27BE9927-4C80-4261-B6FB-85573D808C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27BE9927-4C80-4261-B6FB-85573D808C9B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8C8D9AD4-7E68-4A45-9C42-C94F66C92916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8C8D9AD4-7E68-4A45-9C42-C94F66C92916}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8C8D9AD4-7E68-4A45-9C42-C94F66C92916}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8C8D9AD4-7E68-4A45-9C42-C94F66C92916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8726F76-199B-47DC-A8BF-1E30C370D898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8726F76-199B-47DC-A8BF-1E30C370D898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8726F76-199B-47DC-A8BF-1E30C370D898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8726F76-199B-47DC-A8BF-1E30C370D898}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76CE2B33-F84E-42DD-8067-15E4D4786EFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76CE2B33-F84E-42DD-8067-15E4D4786EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76CE2B33-F84E-42DD-8067-15E4D4786EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76CE2B33-F84E-42DD-8067-15E4D4786EFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64159E28-6EB3-4A9A-A62C-F9CAB6C4C6B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64159E28-6EB3-4A9A-A62C-F9CAB6C4C6B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64159E28-6EB3-4A9A-A62C-F9CAB6C4C6B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64159E28-6EB3-4A9A-A62C-F9CAB6C4C6B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,7 +86,9 @@ Global
 		{FA19A140-BA16-4EE1-915B-BBA53425362A} = {8F9C68FD-CC04-44F9-B087-A7A8DD50FB20}
 		{995272A4-C0AB-447B-AAD7-8347D65E76F4} = {03BB1850-4E74-40C7-9732-C923FDAFFDE6}
 		{27BE9927-4C80-4261-B6FB-85573D808C9B} = {392F70FA-0573-44C6-825F-0301271174BB}
-		{8C8D9AD4-7E68-4A45-9C42-C94F66C92916} = {6E68D50D-7774-473A-93A8-F57C676FFAD2}
+		{C8726F76-199B-47DC-A8BF-1E30C370D898} = {6E68D50D-7774-473A-93A8-F57C676FFAD2}
+		{76CE2B33-F84E-42DD-8067-15E4D4786EFD} = {6E68D50D-7774-473A-93A8-F57C676FFAD2}
+		{64159E28-6EB3-4A9A-A62C-F9CAB6C4C6B7} = {6E68D50D-7774-473A-93A8-F57C676FFAD2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EBD94F64-CACB-4C83-97E3-39E45F16FE31}
