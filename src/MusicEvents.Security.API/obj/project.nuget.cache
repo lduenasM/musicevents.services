@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "deiFJl3UqQ2bKp8scZ9s9j7ZHbXT5bB349aTQSNAeFdNBc8OA7kuH1uU9/LXejdBB0SRnyGQHGxxMXr7YOWSgg==",
+  "dgSpecHash": "RTR867WPPphm9FOZsvztH188cXy8q/d8gTa7pYxRWI9NBs66gOhjvvC7X4++qlrAKArD7VQbEetD+d2eFQ6jlA==",
   "success": true,
-  "projectFilePath": "D:\\Cursos\\Net6\\Test\\musicevents.services\\src\\MusicEvents.Security.API\\MusicEvents.Security.API.csproj",
+  "projectFilePath": "F:\\Cursos\\NetFulstack\\02_Dev\\musicevents.services\\src\\MusicEvents.Security.API\\MusicEvents.Security.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LUIS\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\LUIS\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

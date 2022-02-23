@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Cursos\\Net6\\Test\\musicevents.services\\src\\MusicEvents.Dto\\MusicEvents.Dto.csproj",
+      "projectUniqueName": "F:\\Cursos\\NetFulstack\\02_Dev\\musicevents.services\\src\\MusicEvents.Dto\\MusicEvents.Dto.csproj",
       "projectName": "MusicEvents.Dto",
-      "projectPath": "D:\\Cursos\\Net6\\Test\\musicevents.services\\src\\MusicEvents.Dto\\MusicEvents.Dto.csproj",
+      "projectPath": "F:\\Cursos\\NetFulstack\\02_Dev\\musicevents.services\\src\\MusicEvents.Dto\\MusicEvents.Dto.csproj",
       "packagesPath": "C:\\Users\\LUIS\\.nuget\\packages\\",
-      "outputPath": "D:\\Cursos\\Net6\\Test\\musicevents.services\\src\\MusicEvents.Dto\\obj\\",
+      "outputPath": "F:\\Cursos\\NetFulstack\\02_Dev\\musicevents.services\\src\\MusicEvents.Dto\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

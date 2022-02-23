@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ye9pJwe7w/wX+uMQEOGOuQTu4ZhUE4mzDpiepFh0aoa2sQt+bGi29VsU1KKX3wAxH7zeGOx5LCqcDUgokHahIw==",
+  "dgSpecHash": "DWylbbf5uTxwd6benjYm8ryoGZaZdGh1iyiYvQjWzdRlsZvvSUz8nTnArVLx11W7AR1YUc7UBjqVGX8JP1n29w==",
   "success": true,
-  "projectFilePath": "D:\\Cursos\\Net6\\Test\\musicevents.services\\src\\MusicEvents.Entities\\MusicEvents.Entities.csproj",
+  "projectFilePath": "F:\\Cursos\\NetFulstack\\02_Dev\\musicevents.services\\src\\MusicEvents.Entities\\MusicEvents.Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

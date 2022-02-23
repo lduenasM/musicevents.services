@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Cursos\\Net6\\Test\\musicevents.services\\src\\MusicEvents.Security.API\\MusicEvents.Security.API.csproj": {}
+    "F:\\Cursos\\NetFulstack\\02_Dev\\musicevents.services\\src\\MusicEvents.Security.API\\MusicEvents.Security.API.csproj": {}
   },
   "projects": {
-    "D:\\Cursos\\Net6\\Test\\musicevents.services\\src\\MusicEvents.Security.API\\MusicEvents.Security.API.csproj": {
+    "F:\\Cursos\\NetFulstack\\02_Dev\\musicevents.services\\src\\MusicEvents.Security.API\\MusicEvents.Security.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Cursos\\Net6\\Test\\musicevents.services\\src\\MusicEvents.Security.API\\MusicEvents.Security.API.csproj",
+        "projectUniqueName": "F:\\Cursos\\NetFulstack\\02_Dev\\musicevents.services\\src\\MusicEvents.Security.API\\MusicEvents.Security.API.csproj",
         "projectName": "MusicEvents.Security.API",
-        "projectPath": "D:\\Cursos\\Net6\\Test\\musicevents.services\\src\\MusicEvents.Security.API\\MusicEvents.Security.API.csproj",
+        "projectPath": "F:\\Cursos\\NetFulstack\\02_Dev\\musicevents.services\\src\\MusicEvents.Security.API\\MusicEvents.Security.API.csproj",
         "packagesPath": "C:\\Users\\LUIS\\.nuget\\packages\\",
-        "outputPath": "D:\\Cursos\\Net6\\Test\\musicevents.services\\src\\MusicEvents.Security.API\\obj\\",
+        "outputPath": "F:\\Cursos\\NetFulstack\\02_Dev\\musicevents.services\\src\\MusicEvents.Security.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
