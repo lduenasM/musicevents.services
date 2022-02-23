@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MusicEvents.Dto
 {
-    internal class Class1
+    public  class Class1
     {
     }
 }
