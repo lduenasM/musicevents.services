@@ -7,9 +7,20 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Implementations\" />
-    <Folder Include="Interfaces\" />
     <Folder Include="Profiles\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.10.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MusicEvents.DataAccess\MusicEvents.DataAccess.csproj" />
+    <ProjectReference Include="..\MusicEvents.Dto\MusicEvents.Dto.csproj" />
+    <ProjectReference Include="..\MusicEvents.Entities\MusicEvents.Entities.csproj" />
   </ItemGroup>
 
 </Project>
